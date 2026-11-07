@@ -18,7 +18,7 @@
 *{box-sizing:border-box;margin:0}
 html{scroll-behavior:smooth;scroll-padding-top:84px}
 body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6;overflow-x:hidden}
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:inherit}
 :focus-visible{outline:2px solid var(--y);outline-offset:3px;border-radius:6px}
 .wrap{max-width:1180px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
@@ -128,7 +128,7 @@ h3{font-size:22px;font-weight:700}
 .proj{background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);padding:26px;display:grid;gap:10px;align-content:start;min-height:200px}
 .proj p{color:var(--muted)}
 .proj.feature{grid-column:span 2;grid-row:span 2;padding:0;overflow:hidden;align-content:stretch;grid-template-rows:1fr auto}
-.proj.feature img{width:100%;height:100%;object-fit:cover;min-height:260px}
+.proj.feature img{width:100%;height:100%;object-fit:cover;object-position:left center;min-height:260px}
 .proj.feature>div{padding:24px 26px;display:grid;gap:8px}
 .proj.shot{padding:0;overflow:hidden;grid-template-rows:auto 1fr}
 .proj.shot img{width:100%;aspect-ratio:16/9;object-fit:cover}
