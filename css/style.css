@@ -232,3 +232,7 @@ h3{font-size:22px;font-weight:700}
   .hero{padding-top:28px}
   .hero-art{max-width:300px}
 }
+.social{margin-top:14px}
+.social a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:600}
+.social a:hover{color:var(--y)}
+.social svg{width:20px;height:20px}
