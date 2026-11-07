@@ -236,3 +236,5 @@ h3{font-size:22px;font-weight:700}
 .social a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:600}
 .social a:hover{color:var(--y)}
 .social svg{width:20px;height:20px}
+.projects.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:620px){.projects.two{grid-template-columns:1fr}}
